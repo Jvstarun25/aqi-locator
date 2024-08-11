@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# AQI Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project displays the real-time Air Quality Index of your current location and three other cities.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Widget showing live AQI 
+- Speedometer
+- Color coded to indicate levels
+- Real-time Data
 
-### `npm test`
+## Color Reference
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Good | ![#009966](https://via.placeholder.com/10/009966?text=+) #009966 |
+| Moderate | ![#ffde33](https://via.placeholder.com/10/ffde33?text=+) #ffde33 |
+| Unhealthy for Sensitive Groups | ![#ff9933](https://via.placeholder.com/10/ff9933?text=+) #ff9933 |
+| Unhealthy | ![#cc0033](https://via.placeholder.com/10/cc0033?text=+) #cc0033 |
+| Very Unhealthy | ![#660099](https://via.placeholder.com/10/660099?text=+) #660099 |
+| Hazardous | ![#7e0023](https://via.placeholder.com/10/7e0023?text=+) #7e0023 |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Environment Variables
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project, you will need to add the following environment variables to your .env file
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+REACT_APP_WAQI_API_TOKEN
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Run Locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+  git clone https://github.com/Jvstarun25/aqi-locator.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Go to the project directory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+  cd aqi-locator
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+  npm install
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Start the server
 
-### Making a Progressive Web App
+bash
+  npm run start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Running Tests
 
-### Advanced Configuration
+To run tests, run the following command
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+bash
+  npm test
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Insert gif or link to demo
+https://drive.google.com/file/d/1OdcegVwvqtGKBJvUzwlTc_Xfgs8xkzds/view?usp=sharing
