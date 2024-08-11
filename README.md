@@ -35,35 +35,35 @@ REACT_APP_WAQI_API_TOKEN
 
 Clone the project
 
-bash
+```bash
   git clone https://github.com/Jvstarun25/aqi-locator.git
-
+```
 
 Go to the project directory
 
-bash
+```bash
   cd aqi-locator
-
+```
 
 Install dependencies
 
-bash
+```bash
   npm install
-
+```
 
 Start the server
 
-bash
+```bash
   npm run start
+```
 
 ## Running Tests
 
 To run tests, run the following command
 
-bash
+```bash
   npm test
-
-
+```
 
 ## Demo
 
